@@ -1,0 +1,3 @@
+06-21-2013 - Fixed the default port on settings.xml
+             Fixed onconnect function that would hang if no server was found
+             Fixed xbmc.gui version on addon.xml to install on Raspberry xbian
