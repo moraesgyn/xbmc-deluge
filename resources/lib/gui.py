@@ -177,7 +177,7 @@ class DelugeGui(xbmcgui.WindowXML):
 
     def close(self):
         self.queue.put((MessageType.EXIT, None))
-        self.thread.join()
+        #self.thread.join()
 
         xbmcgui.WindowXML.close(self)
 
